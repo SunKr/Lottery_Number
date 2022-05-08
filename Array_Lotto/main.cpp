@@ -11,7 +11,7 @@ int main()
 	// random number
 	srand((unsigned int)time(0));
 
-	int array[45] = {};
+	int array[45] = {0};
 
 	for (int i = 0; i < 45; ++i)
 	{
@@ -36,16 +36,14 @@ int main()
 	//after swap it and mix it
 	
 
-	cout << "LOTTO" << endl;
+	cout << "LOTTERY TICKET" << endl;
 	for (int i = 0; i < 6; ++i)
 	{
 		cout << " Lotto Number : " << array[i] << endl;
 	}
 
 
-
-
-
+	
 
 
 	return 0;
